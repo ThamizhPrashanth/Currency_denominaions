@@ -1,0 +1,29 @@
+# CURRENCY NOTE DENOMINATION
+
+Initial_Amount = int(input('Enter the Amount to be withdrawn  :'))
+Two_Thousand = int(Initial_Amount // 2000)
+Initial_Amount = Initial_Amount % 2000
+Five_Hundred = int(Initial_Amount // 500)
+Initial_Amount = Initial_Amount % 500
+Two_Hundred = int(Initial_Amount // 200)
+Initial_Amount = Initial_Amount % 200
+Hundred = int(Initial_Amount // 100)
+Initial_Amount = Initial_Amount % 100
+Fifty = int(Initial_Amount // 50)
+Initial_Amount = Initial_Amount % 50
+Twenty = int(Initial_Amount // 20)
+Initial_Amount = Initial_Amount % 20
+Ten = int(Initial_Amount // 10)
+Initial_Amount = Initial_Amount % 10
+Five = int(Initial_Amount // 5)
+Initial_Amount = Initial_Amount % 5
+Two = int(Initial_Amount // 2)
+Initial_Amount = Initial_Amount % 2
+One = int(Initial_Amount // 1)
+
+print(f'your initial amount is {Initial_Amount} and the count of 2000 is {Two_Thousand} '
+      f'and the count of 500 is {Five_Hundred}and the count of 200 is {Two_Hundred} '
+      f'and the count of 100 is {Hundred} and the count of 50 is {Fifty} '
+      f'and the count of 20 is {Twenty} and the count of 10 is {Ten} '
+      f'and the count of 5 is {Five} and the count of 2 is {Two}'
+      f' and the count of 1 is {One}')
